@@ -1,5 +1,6 @@
 # Getting Started
 - Run npm install
+- Setup .env file with Moralis API key https://admin.moralis.io/register
 - Run npm start
 - Set the proxyUrl in Assets/Resources/MoralisConfig (ex. http://localhost:4000/proxy)
 
