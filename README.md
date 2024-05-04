@@ -1,9 +1,11 @@
 # Getting Started
-- Run npm install
-- Setup .env file with Moralis API key https://admin.moralis.io/register
-- Run npm start
-- Set the proxyUrl in Assets/Resources/MoralisConfig (ex. http://localhost:4000/proxy)
-
+1. Run npm install
+2. [Register for Moralis](https://admin.moralis.io/register) to get an API key
+3. Setup .env file with Moralis API key
+4. Run npm start
+5. Proxy server is running at http://localhost:4000/proxy
+   
 # Production Use
 To use the server in production it should be setup with user authentication to ensure that API key usage can be regulated.
 This requires setting up a custom authentication solution, sending auth headers with all proxy requests and verifying those headers in isAuthenticated function.
+This template includes an example implementation of simple web3 wallet signed message authentication
