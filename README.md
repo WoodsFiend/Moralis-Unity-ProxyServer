@@ -1,3 +1,6 @@
+# Summary
+This is the proxy server that is used by the [Moralis Unity SDK](https://github.com/WoodsFiend/Moralis-Unity-SDK)
+
 # Getting Started
 1. Run npm install
 2. [Register for Moralis](https://admin.moralis.io/register) to get an API key
